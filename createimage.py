@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = ""
+openai.api_key = "API-key"
 prompt = 'an astronaut longing in a tropical resort in space'
 response = openai.Image.create(
     prompt=prompt,
